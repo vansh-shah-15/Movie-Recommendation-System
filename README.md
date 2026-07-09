@@ -1,1 +1,2 @@
-# Movie-Recommendation-System
+# Movie Recommendation System
+This project is a Python-based movie recommendation engine that utilizes item-based collaborative filtering to match users with highly relevant films. By analyzing historical user-rating data using Pandas and NumPy, the system calculates Pearson correlations to identify statistically similar movies. To ensure high-quality results and eliminate mathematical anomalies, the engine includes a data-driven threshold that filters out niche titles with fewer than 100 reviews. Users can easily interact with the system through a streamlined command-line interface (CLI) to input a movie and instantly receive the top four closest matches.
